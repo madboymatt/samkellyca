@@ -1,0 +1,356 @@
+/* Background images courtesy of www.subtlepatterns.com 
+    awesome stuff there. Check em out! */
+
+/* Global Styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Times, serif;
+}
+
+a {
+  outline: 0;
+}
+a:hover, a:active, a:focus {
+  outline: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Times, serif;
+}
+
+h2 {
+  font-size: 3.5em;
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.vert-text h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 5.5em;
+  font-weight: 700;
+  font-family: Times, serif;
+}
+
+/* Side Menu */
+
+#sidebar-wrapper {
+  margin-right: -250px;
+  right: 0;
+  width: 250px;
+  background: rgba(74,74,74,1);
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  line-height: 40px;
+  text-indent: 20px;
+}
+
+.sidebar-nav li a {
+  font-size: 1.2em;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-nav li a:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.2);
+  text-decoration: none;
+  text-shadow: 0 0 2px #000;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 55px;
+  line-height: 55px;
+  font-size: 18px;
+  color: #fff;
+
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #fff;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+#menu-toggle {
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1;
+  background-color: #000;
+  border: 0px solid #999;
+}
+
+#sidebar-wrapper.active {
+  right: 250px;
+  width: 250px;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.toggle {
+  margin: 5px 5px 0 0;
+}
+i.icon-reorder {
+  vertical-align: middle;
+}
+i.icon-remove {
+  color: #999;
+  vertical-align: middle;
+}
+
+/* Full Page Image Header Area */
+
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(../img/bg-broken.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header .vert-text {
+  vertical-align: bottom;
+}
+#coverh1 {
+  font-size: 1em;
+  color: rgba(255, 255, 255, 1);
+  font-family: Times, serif;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#btn-learn {
+  font-size: 1.5em;
+  background-color: #666;
+  color: #fff;
+  border: 0px solid black;
+  margin: 0 5px 30px 15px;
+  font-family: Times, serif;
+  text-shadow: 0 -1px 0px #000;
+  box-shadow: inset 0 -21px 1px 1px #555;
+  
+}
+
+#btn-buy {
+  font-size: 1.5em;
+  background-color: rgba(255,150,0,1);
+  border: 0px solid black;
+  margin: 0 15px 30px 5px;
+  font-family: Times, serif;
+  text-shadow: 0 -1px 0 #000;
+  box-shadow: inset 0 -21px 1px 1px rgba(255,125,0,1);
+}
+
+#btn-learn:hover {
+  text-shadow: 1px 3px 4px #000;
+}
+#btn-buy:hover {
+  text-shadow: 1px 1px 2px #000;
+}
+/* Intro */
+
+.intro {
+  background: url(../img/dust.png);
+  padding: 50px 0;
+}
+
+.intro p:first-letter {
+  font-weight: bold;
+  font-size: 1.7em;
+}
+
+/* Services */
+
+.services {
+  background: url(../img/black_lozenge.png);
+  opacity: 0.97;
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+.service-item {
+  margin-bottom: 15px;
+}
+.service-item p {
+  font-size: 1.2em;
+}
+
+i.service-icon {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 1.7em;
+  width: 150px;
+  height: 150px;
+  line-height: 147px;
+  vertical-align: middle; 
+  text-align: center;
+  transition: all .1s ease-in-out;
+}
+
+a {
+  color: #fff;
+}
+
+a:visited {
+  color: #fff;
+}
+
+i.service-icon:hover {
+  font-size: 1.9em;
+  color: #fff;
+  border: 0;
+}
+
+.services p.lead {
+  margin-top: 15px;
+  font-size: 1.7em;
+}
+
+/* Callout */
+
+/* Portfolio */
+
+.portfolio {
+  background: url(../img/dust.png);
+  padding: 50px 0;
+}
+
+.portfolio-item {
+  margin-bottom: 25px;
+}
+
+.portfolio-item p  {
+  text-align: left;
+  font-size: 1.4em;
+}
+
+
+.img-portfolio {
+  margin: 0 auto;
+  box-shadow: 1px 1px 3px #777, -1px 1px 3px #777;
+}
+
+
+/* Call to Action */
+
+/* Footer */
+
+footer {
+  background: url(../img/bookmarkfront3.jpg) center;
+  min-height: 300px;
+  padding-top: 40px;
+  color: #fff;
+}
+
+footer a {
+  transition: all 0.2s ease-in-out 0s;
+}
+
+
+footer a:hover {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+#footer {
+  height: 100%;
+}
+
+form {
+  padding-top:;
+}
+form label {
+  font-size: 1.1em;
+  font-weight: normal;
+}
+
+#inputname {
+  border-radius: 8px;
+}
+
+#inputemail {
+  border-radius: 8px;
+}
+
+#textarea {
+  border-radius: 8px;
+}
+
+#sendbtn {
+  border-radius: 8px;
+}
+
+/*  Media Query for mobile */
+ @media screen and (max-width: 640px) {
+  #sidebar-wrapper {
+    height: 100px;
+    overflow-y: hidden; 
+    border-bottom-left-radius: 8px; 
+  }
+
+  #btn-learn {
+    font-size: 1.1em;
+  }
+  #btn-buy {
+    font-size: 1.1em;
+  }
+  i.service-icon {
+    font-size: 1.4em;
+  }
+
+  .portfolio-item p {
+    font-size: 1.1em;
+  }
+
+
+ }
+
+ 

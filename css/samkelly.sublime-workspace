@@ -1,0 +1,294 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"color"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"n",
+				"no-repeat"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"service-",
+				"service-item"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ser",
+				"services"
+			],
+			[
+				"v",
+				"vert-text"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"li",
+				"li"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"h",
+				"h2	Tag"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"l",
+				"li	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mattkelly/Desktop/SamKelly/css/bootstrap.css",
+		"/Users/mattkelly/Desktop/SamKelly/css/style.css",
+		"/Users/mattkelly/Desktop/SamKelly/stylish-portfolio.html",
+		"/Users/mattkelly/Desktop/Web Design/Skeleton Framework/index.html",
+		"/Users/mattkelly/Desktop/Web Design/stylish-portfolio/css/stylish-portfolio.css",
+		"/Users/mattkelly/Desktop/Web Design/stylish-portfolio/css/bootstrap.css",
+		"/Users/mattkelly/Desktop/SamKelly/css/stylish-portfolio.css",
+		"/Users/mattkelly/Desktop/Web Design/stylish-portfolio/css/bootstrap.icon-large.min.css",
+		"/Users/mattkelly/Desktop/Web Design/stylish-portfolio/stylish-portfolio.html",
+		"/Users/mattkelly/Desktop/Web Design/SamKelly/style.css",
+		"/Users/mattkelly/Desktop/Web Design/SamKelly/index.html",
+		"/Users/mattkelly/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/mattkelly/Desktop/Web Design/desertstyle.css",
+		"/Users/mattkelly/Desktop/Web Design/desert.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"i:hover",
+			"hover",
+			";\n",
+			"btn",
+			"portf",
+			"fff",
+			"portfolio",
+			"icon-rocket",
+			"Heading",
+			"15px",
+			"25px",
+			"250px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 124.0,
+	"status_bar_visible": true
+}
